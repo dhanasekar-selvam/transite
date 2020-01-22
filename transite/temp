@@ -1,0 +1,42 @@
+ <center>
+                    <!-- <form class=" w3-container " method="post">  -->
+
+                    <!-- <?php
+
+                            //for ($i = 0; $i < 5; $i++) {
+                            ?> -->
+                    <!-- <div class="w3-container"> -->
+                    <center>
+
+                        <!-- <div class="w3-row-padding w3-margin-top w3-image "> -->
+
+                        <?php
+                        $i = 0;
+                        echo '   <div class="w3-third ">';
+                        echo '  <div class="w3-card ">';
+                        $files = "uploads/$name$i.jpg";
+                        // echo '<center>';
+                        // echo '<img src="' . $files . '" class="w3-image" style="width:100%"> ';
+                        // echo '</center>';
+
+
+                        echo ' <img src="' . $files . '" style="width:100%">';
+
+                        echo '</div>';
+                        echo '  </div>';
+                        echo ' </div>';
+
+
+                        ?>
+                    </center>
+
+
+                    <?php
+                    //}
+
+                    ?>
+
+
+            </div>
+        </div>
+    </div>
